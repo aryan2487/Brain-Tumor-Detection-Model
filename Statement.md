@@ -1,0 +1,11 @@
+# Problem Statement 
+Diagnosing brain tumors from Magnetic Resonance Imaging (MRI) scans is a complex and time-consuming process that relies heavily on the expertise of radiologists. With the increasing volume of medical imaging data, manual interpretation is prone to human error, fatigue, and variability between different observers. A delayed or incorrect diagnosis can significantly impact patient treatment plans and survival rates, creating an urgent need for automated, reliable, and efficient computational tools to act as a diagnostic support system.
+
+# Scope of the Project 
+This project focuses on developing a Deep Learning-based classification system specifically for brain MRI scans. The scope is limited to identifying four distinct categories: Glioma, Meningioma, Pituitary tumors, and healthy (No Tumor) brains. It utilizes Python and TensorFlow within a Google Colab environment to implement and compare a custom Convolutional Neural Network (CNN) against a Transfer Learning approach (MobileNetV2). The system is designed as a research prototype to demonstrate high-accuracy classification and is not yet intended for standalone clinical deployment without further regulatory validation.
+
+# Target Users 
+The primary users of this system are radiologists and medical professionals who can utilize the model as a "second opinion" tool to verify their findings or triage critical cases. Secondary users include medical students and residents using the tool for educational purposes to learn tumor characteristics, as well as biomedical researchers looking to establish baseline performance metrics for automated tumor classification algorithms.
+
+# High-Level Features 
+The system provides an end-to-end pipeline for automated brain tumor detection, capable of processing raw MRI images and outputting a specific tumor classification with high confidence. Key features include robust data preprocessing with automated image resizing and normalization, and a powerful Transfer Learning engine (MobileNetV2) that leverages pre-trained patterns to achieve medical-grade accuracy. Additionally, the system offers visual feedback mechanisms, displaying the model's predictions alongside the actual ground truth labels to provide interpretable results for the user.
